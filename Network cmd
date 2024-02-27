@@ -1,0 +1,5 @@
+ping any website - Check connetion is establish or not 
+ip addr - To get ip address 
+nslookup any website - To check details of ip address
+curl any website link - Contents of website ,transfer data from one server to another
+wget link - Download the file/package, Non interactive network downloader
