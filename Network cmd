@@ -3,3 +3,12 @@ ip addr - To get ip address
 nslookup any website - To check details of ip address
 curl any website link - Contents of website ,transfer data from one server to another
 wget link - Download the file/package, Non interactive network downloader
+traceroute link - To dispay route and measure transit delays of packages across internet protocol network 
+netstat -a - To display active network connetions, routing table, interface statistic
+Nmap -p 1-1000 target - To discover hosts and services on computer networks
+tcpdump -i eth0 - To capture and analyze network traffic
+ipconfig - To display the configuration of network interfaces
+dig link - To query DNS servers for domain info.
+wireshark - Network protocol analyzer for turbleshooting and analysis of interactions beteen network components 
+iperf -s -To measure TCP and uDP performance of network  server
+iperf -c server ip - client side
