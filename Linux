@@ -19,3 +19,4 @@ man rm - man is manual give all the information
 cp filename direct1 - To copy file inside direct1
 mv filename direct1 - To move file inside direct1
 mv fiename ~/otherdirectory - To move file from home directory to other directory 
+mv filename newname - To rename the files
