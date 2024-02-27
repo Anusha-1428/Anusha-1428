@@ -1,0 +1,21 @@
+mkdir filename - To make new directory
+cd filename/ - To change directory 
+touch newfile - To make empty new file
+nano newfile - To edit new file
+ls - List the file
+cat filename - To see content in the file 
+rm filename - To delete file
+rm * - All files will be deleted
+ls -l  - To see type file or directory 
+File type rw - read and write
+directory type rwx - read write execute
+cd .. - One step back to directory 
+cd../.. - Two step back 
+cd filename1/filename2 - Land on file 2
+mkdir newfile && cd newfile - Create and enter new file in one command
+rmdir newfile - To remove directory
+rm -r directoryname/ - To remove directory which is not empty ## r stands for recursive
+man rm - man is manual give all the information
+cp filename direct1 - To copy file inside direct1
+mv filename direct1 - To move file inside direct1
+mv fiename ~/otherdirectory - To move file from home directory to other directory 
