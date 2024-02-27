@@ -1,0 +1,28 @@
+apt - Command line interface for ubuntu
+sudo - super user do (root account)
+sudo apt install docker - To install package in ubuntu
+sudo apt update - To view update 
+sudo apt update && sudo apt upgrade - All packages updated in single line command
+sudo apt purge package name - To delete package
+ssh - secure shell  Command to connect remote server 
+ssh -i keyname ubuntu@ipaddress - To connect aws instance 
+
+To Create file under instance from terminal 
+mkdir test2 && touch test2/file.txt
+exit - Back to home terminal
+history - To check all commands run 
+
+case 1 Working on application and to get path of file 
+pwd - present working directory
+whoami - To check the user
+sudo su - for root user
+
+Case 2 To check package is installed or not or what version is installed
+docker - If gave some options it is installed
+docker --version 
+which docker - where docker is placed path
+
+Vim editor 
+vi filename - Vim editor opens
+esc then wq - Save and exit 
+qa! - exit without saving
