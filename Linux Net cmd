@@ -2,3 +2,16 @@ The syntax for the ip command is:
 ip [options] object [command]  #The ip addr command manages and shows network interface IP addresses. The command aliases are ip address
 ip addr [subcommand]  # add, show, delete, flush
 ip addr show [interface]
+ip link
+The ip link command manages and shows network interface information. It allows viewing, changing, enabling,
+and disabling network interfaces
+ip link [subcommand] [options] [interfaces] # show, set, add, del
+To turn off an interface, use the following syntax as a superuser:
+sudo ip link set [interface] down
+ip route
+ip route [subcommand] [options] [destination] # show, add, del, change
+To view the routing table, run the following command:
+ip route show
+ifconfig
+The ifconfig (interface configuration) command manages and shows network interface information on a system. The command is part of the net-tools package
+ifconfig [interface] [options]
